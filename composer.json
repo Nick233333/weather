@@ -1,0 +1,21 @@
+{
+    "name": "nick233333\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nick",
+            "email": "nick_php@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nick233333\\Weather\\": "./src"
+        }
+    }
+}

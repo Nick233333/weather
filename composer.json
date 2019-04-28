@@ -17,5 +17,12 @@
         "psr-4": {
             "Nick233333\\Weather\\": "./src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nick233333\\Weather\\ServiceProvider"
+            ]
+        }
     }
 }

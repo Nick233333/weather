@@ -193,7 +193,7 @@ array | string   getForecastsWeather(string $city, string $format = 'json')
 WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ```
 
-可以用两种方式来获取 `Overtrue\Weather\Weather` 实例：
+可以用两种方式来获取 `Nick233333\Weather\Weather` 实例：
 
 #### 方法参数注入
 
@@ -229,6 +229,10 @@ WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ## 参考
 
 - [高德开放平台天气接口](https://lbs.amap.com/api/webservice/guide/api/weatherinfo/)
+
+## 感谢
+
+- [overtrue](https://github.com/overtrue)
 
 ## License
 
